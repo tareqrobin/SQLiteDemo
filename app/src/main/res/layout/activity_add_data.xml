@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AddDataActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter name"
+        android:id="@+id/et_activity_add_data_name"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="age"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_activity_add_data_age"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/btn_activity_add_data_save"/>
+
+
+</LinearLayout>
